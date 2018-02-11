@@ -1,0 +1,8 @@
+ducx-miner-node:
+  image: cryptonote:latest
+  ports:
+    - "59996:59996"
+  command:
+    /cryptonote/build/release/src/ducxd
+    --log-level 3
+    --start-mining 14JeLuxP47oMSyF5pV3gHshoRRVY7mXpr3YbpvyEvhRPiTtjjjngYx6XmmkuzQJL9qadP8gedtru4BNBZESu8oESHGVgCMk
